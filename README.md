@@ -1,3 +1,13 @@
+FORK of PDF Stitcher.
+
+Reason for fork: I am contemplating using the 'stitcher' app to solve a problem with posterizing Prezi's:
+https://getsatisfaction.com/prezi/topics/you_should_sell_poster_sized_prints_of_a_prezi?topic-reply-list[settings][filter_by]=all&topic-reply-list[settings][reply_id]=16611348#reply_16611348
+
+
+Text below is from original project (Lageos/pdf-stitcher)
+---------------------------------------
+
+
 # PDF Stitcher
 
 Different means to stitch sewing patterns (or any pdf file) delivered in single sheets to a whole plan (file).
