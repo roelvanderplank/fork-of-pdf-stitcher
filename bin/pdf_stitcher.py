@@ -25,10 +25,6 @@ def main():
     # --- Aanpassing sourcecode! ---
     tx = -15
     ty = -37
-    # -- Reden voor de aanpassing: Prezi doet blijkbaar wat extra witruimte
-    # Stom he ;-0 Kan het handmatig aanpassen, echter simpelweg 'wegprogrammeren'
-    # is toch het simpelst!
-    # De negatieve waarde voor ty zorgt ervoor dat de (onnodige) witruimte verdwijnt
     # --- Einde aanpassing sourcecode ---
     with open(sys.argv[1], 'rb') as input:
         pdf = PyPDF2.PdfFileReader(input)
