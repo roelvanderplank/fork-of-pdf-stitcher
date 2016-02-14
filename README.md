@@ -1,3 +1,16 @@
+#Use of this program: this program is used to change a specially crafted PDF file into 1 single ('huge') PDF file.
+For more info see e.g.
+https://getsatisfaction.com/prezi/topics/you_should_sell_poster_sized_prints_of_a_prezi?topic-reply-list[settings][filter_by]=all&topic-reply-list[settings][reply_id]=16611348#reply_16611348
+
+## Usage:
+* Download the exe file
+* Download the pattern.txt file
+* Put both of them in the same directory
+* Create the specially crafted PDF file, put it in the same directory
+* Assuming the specially crafted PDF file is named 'yourprezi.pdf' open a CMD window and type:
+* Prezi_poster_pdf_stitcher.exe yourprezi.pdf pattern.txt prezi_poster.pdf
+This should give you a prezi_poster.pdf file, in which the 16 pages (or actually: 20 pages) from the original pdf file (yourprezi.pdf) is stitched together in one pdf file, which you could e.g. print on a large poster.
+
 # FORK of PDF Stitcher.
 
 Reason for fork: I am contemplating using the 'stitcher' app to solve a problem with posterizing Prezi's:
