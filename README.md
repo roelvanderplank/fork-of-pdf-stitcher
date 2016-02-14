@@ -3,8 +3,8 @@ For more info see e.g.
 https://getsatisfaction.com/prezi/topics/you_should_sell_poster_sized_prints_of_a_prezi?topic-reply-list[settings][filter_by]=all&topic-reply-list[settings][reply_id]=16611348#reply_16611348
 
 ## Usage:
-* Download the exe file
-* Download the pattern.txt file
+* Download the exe file (from the bin folder)
+* Download the pattern.txt file (from the bin folder)
 * Put both of them in the same directory
 * Create the specially crafted PDF file, put it in the same directory
 * Assuming the specially crafted PDF file is named 'yourprezi.pdf' open a CMD window and type:
@@ -16,6 +16,8 @@ This should give you a prezi_poster.pdf file, in which the 16 pages (or actually
 Reason for fork: I am contemplating using the 'stitcher' app to solve a problem with posterizing Prezi's:
 https://getsatisfaction.com/prezi/topics/you_should_sell_poster_sized_prints_of_a_prezi?topic-reply-list[settings][filter_by]=all&topic-reply-list[settings][reply_id]=16611348#reply_16611348
 
+Licences etc: as this program is a 99% copy of the Lageos/pdf-stitcher project (and uses libraries and licences from other projects), the licence is essentially the same as that of the Lageos/pdf-stitcher.
+The exe file is created from the py file in the bin-folder, using the pyinstaller package (see e.g. http://www.pyinstaller.org/).
 
 Text below is from original project (Lageos/pdf-stitcher)
 ---------------------------------------
