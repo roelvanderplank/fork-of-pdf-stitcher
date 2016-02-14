@@ -1,5 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# Copyright addition: code from original project under copyright of that project
+# All changes (lines between "# --- Aanpassing sourcecode" and "# --- Einde aanpassing") released under most permissive licence possible
+# (whatever that might be)
 from __future__ import print_function, division, with_statement
 import PyPDF2
 import csv
@@ -20,7 +23,8 @@ def main():
     tx = 0
     ty = 0
     # --- Aanpassing sourcecode! ---
-    ty = -20
+    tx = -15
+    ty = -37
     # -- Reden voor de aanpassing: Prezi doet blijkbaar wat extra witruimte
     # Stom he ;-0 Kan het handmatig aanpassen, echter simpelweg 'wegprogrammeren'
     # is toch het simpelst!
