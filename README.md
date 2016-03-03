@@ -4,12 +4,10 @@ https://getsatisfaction.com/prezi/topics/you_should_sell_poster_sized_prints_of_
 
 ## Usage:
 * Download the exe file (from the bin folder)
-* Download the pattern.txt file (from the bin folder)
-* Put both of them in the same directory
-* Create the specially crafted PDF file, put it in the same directory
+* Create the specially crafted PDF file (open the specially crafted Prezi and 'print' to pdf), put it in the same directory
 * Assuming the specially crafted PDF file is named 'yourprezi.pdf' open a CMD window and type:
-* Prezi_poster_pdf_stitcher.exe yourprezi.pdf pattern.txt prezi_poster.pdf
-This should give you a prezi_poster.pdf file, in which the 16 pages (or actually: 20 pages) from the original pdf file (yourprezi.pdf) is stitched together in one pdf file, which you could e.g. print on a large poster.
+* Prezi_poster_pdf_stitcher.exe yourprezi.pdf prezi_poster.pdf
+This should give you a prezi_poster.pdf file, in which the last 16 pages from the original pdf file (yourprezi.pdf) is stitched together in one pdf file, which you could e.g. print on a large poster.
 
 # FORK of PDF Stitcher.
 
