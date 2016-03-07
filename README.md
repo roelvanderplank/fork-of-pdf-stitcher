@@ -9,6 +9,8 @@ https://getsatisfaction.com/prezi/topics/you_should_sell_poster_sized_prints_of_
 * Prezi_poster_pdf_stitcher.exe yourprezi.pdf prezi_poster.pdf
 This should give you a prezi_poster.pdf file, in which the last 16 pages from the original pdf file (yourprezi.pdf) is stitched together in one pdf file, which you could e.g. print on a large poster.
 
+There is a Java version of this project, see https://github.com/roelvanderplank/jythonStuff: within that project look for Package/output.jar. That Java jar file takes an extra argument, but works the same as the .exe.
+
 # FORK of PDF Stitcher.
 
 Reason for fork: I am contemplating using the 'stitcher' app to solve a problem with posterizing Prezi's:
