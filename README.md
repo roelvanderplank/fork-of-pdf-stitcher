@@ -3,6 +3,7 @@ For more info see e.g.
 https://getsatisfaction.com/prezi/topics/you_should_sell_poster_sized_prints_of_a_prezi?topic-reply-list[settings][filter_by]=all&topic-reply-list[settings][reply_id]=16611348#reply_16611348
 
 ## Usage:
+EXE FILE IS DEPRECATED, REMOVED IN CURRENT VERSION. PLEASE USE JAVA OPTION INSTEAD (see 'Jythonstuff' below)
 * Download the exe file (from the bin folder)
 * Create the specially crafted PDF file (open the specially crafted Prezi and 'print' to pdf), put it in the same directory
 * Assuming the specially crafted PDF file is named 'yourprezi.pdf' open a CMD window and type:
